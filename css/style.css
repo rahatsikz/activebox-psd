@@ -1,0 +1,240 @@
+/*font start*/
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Cardo', serif;*/
+/*font end*/
+
+/*upper part start*/
+.banner {
+	background-image: url(../image/banner.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	
+}
+.cus-nav1 {
+	margin-bottom: 100px;
+	padding-top: 50px;
+}
+.cus-nav2 li a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	color: #ffffff !important;
+	padding-left: 50px !important;
+	transition: .5s;
+}
+.cus-nav2 li a:hover {
+	color: #e84545 !important;
+}
+.banner-text h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 65px;
+	color: #ffffff;
+}
+.banner-text p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 22px;
+	color: #ffffff;
+	margin-top: 40px;
+	margin-bottom: 70px; 
+}
+.banner-text a {
+	margin-bottom: 100px;
+	padding: 10px 35px;
+}
+.banner-text a:hover {
+	background: transparent;
+}
+/*upper part end*/
+
+/*feature start*/
+.feature {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.feature-content {
+	margin-top: 30px;
+}
+.feature-content h5 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+.feature-content p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #6c7279;
+}
+.features {
+	margin-bottom: 50px;
+}
+/*feature end*/
+/*works start*/
+.section {
+  padding: 100px 0; 
+}
+
+.no-gutter [class*=col-] {
+  padding-right: 0;
+  padding-left: 0; 
+}
+.work {
+  box-shadow: 0 0 0 1px #fff;
+  min-height: 350px;
+  overflow: hidden;
+  position: relative;
+}
+.work .overlay {
+    background: rgba(232, 69, 69, 0.9);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    transition: opacity, 0.3s;
+}
+.work .overlay-caption {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.work h5, .work p, .work img {
+    transition: all, 0.5s;
+}
+.work h5, .work p {
+    color: #fff;
+    margin: 0;
+    opacity: 0; 
+}
+.work h5 {
+    margin-bottom: 5px;
+    transform: translate3d(0, -200%, 0);
+}
+.work p {
+    transform: translate3d(0, 200%, 0);
+}
+
+.work-box:hover img {
+  transform: scale(1.2); 
+}
+.work-box:hover .overlay {
+  opacity: 1; 
+}
+.work-box:hover .overlay h5, .work-box:hover .overlay p {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); 
+}
+/*works end*/
+/*teams start*/
+.teams {
+	padding: 100px 0;
+}
+.person-content {
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif; 
+}
+.person h4 {
+	font-size: 22px;
+    font-weight: 400; 
+}
+.person h5 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #e84545;
+    margin-bottom: 20px; 
+}
+.person p {
+	font-size: 14px;
+	color: #6c7279;
+}
+.ico-socail i {
+	color: #6c7279;
+	padding-right: 10px;
+}
+/*teams end*/
+/*testimonials start*/
+.testimonials {
+	background-color: #53354a; 
+}
+.cus-indi li {
+	width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.carou-text blockquote p {
+	font-family: 'Cardo', serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+	padding-top: 72px;
+}
+.carou-text blockquote cite {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 13;
+	font-style: normal;
+	color: #ffffff;
+}
+/*testimonials end*/
+/*download start*/
+.download h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 28px;
+	color: #2d3033;
+}
+.download p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: #2d3033;
+}
+.download button {
+	padding: 10px 40px;
+}
+.download button:hover {
+	background: transparent;
+	color: #2d3033;
+}
+/*download end*/
+/*footer start*/
+.ftr-top {
+	background-color: #3a3e64;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.ftr-text h5 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #ffffff;
+}
+.ftr-text p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #9092a7;
+}
+.ftr-text ul li a i {
+	color: #ffffff;
+	font-size: 24px;
+}
+.ftr-bottom {
+	background-color: #313454;
+	padding: 20px 0;
+}
+.col-wht {
+	color: #ffffff;
+}
+.ftr-text i {
+	color: #e84545;
+}
+/*footer end*/
